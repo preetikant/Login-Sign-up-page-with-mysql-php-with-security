@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{												
+	font-size: 120%;
+	background: #f8ffaa;
+}
+.header{
+	width: 30%;
+	margin: 50px auto 0px;
+	color: Black;
+	background: #67ddaa;
+	text-align: center;
+	border: 1px solid #bbaaaa;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+
+}
+form, .content{
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0aacc;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group{
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray; 
+}
+.btn{
+	padding: 10px;
+	font-size:15px;
+	color: white;
+	background: #65aadd;
+	border: none;
+	border-radius: 5px;
+
+}
+/*agar na aaye to ctrl+f5 press kro*/
+.error {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid red;
+	color: black;
+	background: #fcfafb;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.success{
+	color: #3c67cc;
+	background: #dffacc;
+	border: 1px solid #34aa55;
+	margin-bottom: 20px;
+}
